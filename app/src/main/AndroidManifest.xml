@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="henriiv.queueapp20" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminDashboard"
+            android:label="AdminDashboard" >
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:label="AdminLogin" >
+        </activity>
+        <activity
+            android:name=".CreateEvent"
+            android:label="CreateEvent" >
+        </activity>
+        <activity
+            android:name=".CreateSubuser"
+            android:label="CreateSubuser" >
+        </activity>
+        <activity
+            android:name=".EventList"
+            android:label="EventList" >
+        </activity>
+        <activity
+            android:name=".EventView"
+            android:label="EventView" >
+        </activity>
+        <activity
+            android:name=".ForgottenPassword"
+            android:label="ForgottenPassword" >
+        </activity>
+        <activity
+            android:name=".MyAccount"
+            android:label="MyAccount" >
+        </activity>
+        <activity
+            android:name=".SendPushNote"
+            android:label="SendPushNote" >
+        </activity>
+        <activity
+            android:name=".SubuserDashboard"
+            android:label="SubuserDashboard" >
+        </activity>
+        <activity
+            android:name=".SubuserList"
+            android:label="SubuserList" >
+        </activity>
+        <activity
+            android:name=".SubuserView"
+            android:label="SubuserView" >
+        </activity>
+        <activity
+            android:name=".EventUpdate"
+            android:label="EventUpdate" >
+        </activity>
+        <activity
+            android:name=".UpdateSubuser"
+            android:label="UpdateSubuser" >
+        </activity>
+        <activity
+            android:name=".Klubb"
+            android:label="@string/title_activity_klubb"
+            android:parentActivityName=".Start" >
+
+            <!--
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.henriiv.queueapp20.Start" />
+            -->
+        </activity>
+        <activity
+            android:name=".Pub"
+            android:label="@string/title_activity_pub"
+            android:parentActivityName=".Start" >
+
+            <!--
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.henriiv.queueapp20.Start" />
+            -->
+        </activity>
+        <activity
+            android:name=".KoTid"
+            android:label="@string/title_activity_ko_tid" >
+        </activity>
+        <activity
+            android:name=".KoTidPub"
+            android:label="@string/title_activity_ko_tid_pub" >
+        </activity>
+    </application>
+
+</manifest>

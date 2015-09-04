@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/eventUpdate">
+
+    <TextView
+        android:id="@+id/updateEvent"
+        android:layout_width="fill_parent"
+        android:text="@string/updateEvent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:layout_weight="20"
+        android:textColor="@color/vitText"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioEventType"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="@color/vitText"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp" >
+
+        <RadioButton
+            android:id="@+id/radioFika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioFika"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioLunch" />
+
+        <RadioButton
+            android:id="@+id/radioPub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioPub" />
+
+        <RadioButton
+            android:id="@+id/radioClub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioClub" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+
+        <TextView android:id="@+id/startEvent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:text="@string/startEvent"
+            android:textColor="@color/vitText"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:id="@+id/inputStartDate"
+            android:layout_width="wrap_content"
+            android:hint="@string/dateFormatDate"
+            android:inputType="datetime"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vitText"
+            android:layout_marginRight="10dp"/>
+
+        <TextView android:id="@+id/startTime"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:text="@string/startTime"
+            android:textColor="@color/vitText"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/inputStartTime"
+            android:layout_width="wrap_content"
+            android:hint="@string/dateFormatTime"
+            android:inputType="datetime"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+
+        <TextView android:id="@+id/endEvent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:text="@string/endEvent"
+            android:textColor="@color/vitText"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:id="@+id/inputEndDate"
+            android:layout_width="wrap_content"
+            android:hint="@string/dateFormatDate"
+            android:inputType="datetime"
+            android:textColor="@color/vitText"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"/>
+
+        <TextView android:id="@+id/endTime"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:text="@string/endTime"
+            android:textColor="@color/vitText"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:id="@+id/inputEndTime"
+            android:layout_width="wrap_content"
+            android:hint="@string/dateFormatTime"
+            android:inputType="datetime"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inputEventName"
+        android:layout_width="fill_parent"
+        android:hint="@string/inputEventName"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:textColor="@color/vitText"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp" />
+
+    <EditText
+        android:id="@+id/inputEventInfo"
+        android:layout_width="fill_parent"
+        android:hint="@string/inputEventInfo"
+        android:gravity="start"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:textColor="@color/vitText"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/updateEventButton"
+        android:layout_width="fill_parent"
+        android:text="@string/updateEventButton"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="@color/adminGron"
+        android:textColor="@color/vitText" />
+</LinearLayout>
+

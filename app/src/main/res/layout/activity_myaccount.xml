@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#6688CC"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/currentUsername"
+        android:layout_width="fill_parent"
+        android:text="@string/currentUsername"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/yourUsername"
+        android:layout_width="fill_parent"
+        android:text="@string/yourUsername"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/currentEmail"
+        android:layout_width="fill_parent"
+        android:text="@string/currentEmail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/yourEmail"
+        android:layout_width="fill_parent"
+        android:text="@string/yourEmail"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/changePassword"
+        android:layout_width="fill_parent"
+        android:text="@string/changePassword"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:inputType="textPassword"
+        android:hint="@string/inputOldPassword"
+        android:id="@+id/inputOldPassword"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:inputType="textPassword"
+        android:hint="@string/inputNewPassword1"
+        android:id="@+id/inputNewPassword1"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:inputType="textPassword"
+        android:hint="@string/inputNewPassword2"
+        android:id="@+id/inputNewPassword2"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/newPasswordButton"
+        android:layout_width="wrap_content"
+        android:text="@string/newPasswordButton"
+        android:textColor="#FFFFFF"
+        android:background="#CC6688"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"/>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/adminGron"
+    android:textColor="@color/vitText">
+
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="fill_parent"
+        android:text="@string/eventName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/vitText"/>
+
+    <TextView
+        android:id="@+id/eventTimeDate"
+        android:layout_width="fill_parent"
+        android:text="@string/eventTimeDate"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/vitText"/>
+
+    <TextView
+        android:id="@+id/eventType"
+        android:layout_width="fill_parent"
+        android:text="@string/eventType"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="15"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/vitText"/>
+
+    <TextView
+        android:id="@+id/eventInfo"
+        android:layout_width="fill_parent"
+        android:text="@string/eventInfo"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/vitText"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="15"
+        android:background="@color/adminLila"
+        >
+
+        <Button
+            android:id="@+id/updateEventButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/updateEventButton"
+            android:layout_weight="1"
+            android:background="@color/adminLila"
+            android:textColor="@color/vitText" />
+
+        <Button
+            android:id="@+id/deleteEventButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/deleteEventButton"
+            android:layout_weight="1"
+            android:background="@color/adminLila"
+            android:textColor="@color/vitText" />
+
+    </LinearLayout>
+
+</LinearLayout>

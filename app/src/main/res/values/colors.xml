@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="klubbColor">#C47451</color>
+    <color name="backgroundAnv">#B5EAAA</color>
+    <color name="vitText">#fffcfffd</color>
+    <color name="adminLila">#CC6688</color>
+    <color name="adminGron">#88CC66</color>
+    <color name="eventUpdate">#6688CC</color>
+</resources>

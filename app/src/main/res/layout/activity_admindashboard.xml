@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#CC6688">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:text="@string/createEventButton"
+        android:id="@+id/createEventButton"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:background="#CC6688"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:text="@string/manageEventButton"
+        android:id="@+id/manageEventButton"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:background="#88CC66"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:text="@string/manageMyAccount"
+        android:id="@+id/manageMyAccount"
+        android:background="#6688CC"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="25" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:text="@string/logoutButton"
+        android:id="@+id/logoutButton"
+        android:background="#ccaa66"
+        android:textColor="#FFFFFF"
+        android:layout_height="0dp"
+        android:layout_weight="25" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="henriiv.queueapp20.KoTidPub"
+    android:background="@color/backgroundAnv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <Chronometer
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/chronometer"
+        android:textColor="@color/backgroundAnv"/>
+
+    <TextView
+        android:id="@+id/kotidPub"
+        android:textColor="@color/vitText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <Button
+        android:text="@string/harMatPub"
+        android:id="@+id/inneButtonPub"
+        android:background="#88cc66"
+        android:textColor="@color/vitText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:textSize="40sp"/>
+    <Button
+        android:text="@string/lamnaKonPub"
+        android:id="@+id/lamnaKoButtonPub"
+        android:background="#6688cc"
+        android:textColor="@color/vitText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:textSize="40sp"/>
+
+    <Button
+        android:text="@string/varningPub"
+        android:id="@+id/varningPub"
+        android:background="#A52A2A"
+        android:textColor="@color/vitText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:textSize="40sp"/>
+
+
+</LinearLayout>

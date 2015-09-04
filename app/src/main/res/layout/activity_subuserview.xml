@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userEmail"
+        android:layout_below="@id/userName"/>
+
+    <TextView
+        android:id="@+id/userIsAdmin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userIsAdmin"
+        android:layout_below="@id/userEmail"/>
+
+    <Button
+        android:id="@+id/deleteUserButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/deleteUserButton" />
+
+</RelativeLayout>

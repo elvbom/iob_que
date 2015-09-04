@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createEventButton"
+        android:id="@+id/createEventButton"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manageEventButton"
+        android:id="@+id/manageEventButton"
+        android:layout_below="@id/createEventButton"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manageMyAccount"
+        android:id="@+id/manageMyAccount"
+        android:layout_below="@id/manageEventButton"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logoutButton"
+        android:id="@+id/logoutButton"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

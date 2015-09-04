@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Kökollen</string>
+
+    <string name="slogan">Vi vill inte stå i kö, vi vill bara dricka öl!</string>
+
+    <string name="knappKlubb_text">Klubb</string>
+    <string name="knappPub_text">Äta</string>
+    <string name="adminLogin">Logga in som administratör</string>
+
+    <string name="login">Logga in</string>
+    <string name="inputUsername">Användarnamn</string>
+    <string name="inputPassword">Lösenord</string>
+    <string name="loginButton">Logga in!</string>
+    <string name="forgottenPasswordButton">Glömt lösenord?</string>
+
+    <string name="sendNewPassword">Fyll i din epost så skickas ett nytt lösenord via email</string>
+    <string name="sendPasswordButton">Skicka nytt lösenord</string>
+
+    <string name="createEventButton">Skapa nytt event</string>
+    <string name="manageEventButton">Hantera mina events</string>
+    <string name="createSubuserButton">Skapa ny användare</string>
+    <string name="manageSubusersButton">Hantera mina användare</string>
+    <string name="manageMyAccount">Mitt konto</string>
+    <string name="logoutButton">Logga ut</string>
+
+    <string name="createEvent">Skapa nytt event</string>
+    <string name="inputEventName">Eventnamn</string>
+    <string name="radioFika">Fika</string>
+    <string name="radioLunch">Lunch</string>
+    <string name="radioPub">Pub</string>
+    <string name="radioClub">Klubb</string>
+    <string name="coverCharge">Inträde</string>
+    <string name="startEvent">Börjar </string>
+    <string name="startTime">Starttid </string>
+    <string name="endEvent">Slutar </string>
+    <string name="endTime">Sluttid </string>
+    <string name="dateFormatDate">ÅÅ-MM-DD</string>
+    <string name="dateFormatTime">HH:MM</string>
+    <string name="radioYes">Ja</string>
+    <string name="radioNo">Nej</string>
+    <string name="repeat">Upprepa?</string>
+    <string name="inputEventInfo">Eventinfo</string>
+    <string name="createNewEventButton">Spara nytt event!</string>
+
+    <string name="loadEvent">Laddar event</string>
+
+    <string name="updateEvent">Uppdatera event</string>
+    <string name="updateEventButton">Uppdatera event!</string>
+    <string name="deleteEventButton">Radera event</string>
+
+    <string name="eventName">Laddar eventnamn</string>
+    <string name="eventType">Laddar eventtyp</string>
+    <string name="eventInfo">Laddar eventinfo</string>
+    <string name="eventTimeDate">Laddar tid och datum</string>
+
+    <string name="createSubuser">Skapa ny subuser</string>
+    <string name="inputNameSubuser">Användarnamn</string>
+    <string name="inputEmail">Email</string>
+    <string name="inputUserPassword">Lösenord</string>
+    <string name="isAdminCheckbox">Ska ha administratörsstatus?</string>
+    <string name="createNewSubuserButton">Skapa ny användare!</string>
+
+    <string name="userName">Laddar användarnamn</string>
+    <string name="userEmail">Laddar epostadress</string>
+    <string name="userIsAdmin">Laddar administratörsstatus</string>
+    <string name="deleteUserButton">Radera användaren</string>
+
+    <string name="currentUsername">Ditt användarnamn</string>
+    <string name="yourUsername">Kunde inte ladda användarnamn</string>
+    <string name="currentEmail">Din epost</string>
+    <string name="yourEmail">Kunde inte ladda email</string>
+    <string name="currentGroups">Grupper du tillhör</string>
+    <string name="yourGroups">Kunde inte ladda grupper</string>
+    <string name="changePassword">Byt lösenord</string>
+    <string name="inputOldPassword">Nuvarande lösenord</string>
+    <string name="inputNewPassword1">Nytt lösenord</string>
+    <string name="inputNewPassword2">Upprepa nytt lösenord</string>
+    <string name="newPasswordButton">Byt lösenord!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hej</string>
+    <string name="title_activity_klubb">Klubb</string>
+    <string name="title_activity_pub">Pub</string>
+
+    <string name="inneText">Tryck här när du kommit in på klubben</string>
+    <string name="LamnarKoText">Tryck här om du går ur kön (tex. om du går hem)</string>
+    <string name="enInEnUtText">Tryck här om det är en-in-en-ut</string>
+    <string name="title_activity_ko_tid">KoTid</string>
+    <string name="title_activity_ko_tid_pub">KoTidPub</string>
+    <string name="varningPub">Tryck här om det är mer än en timmes väntan</string>
+    <string name="lamnaKonPub">Tryck här om du struntar i maten och går hem</string>
+    <string name="harMatPub">Tryck här när du har fått mat</string>
+</resources>
